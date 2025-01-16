@@ -1,0 +1,60 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 14, 2025, 10:47:54 AM
+    Author     : wodnj
+*/
+
+:root{
+    --global-color-1: #800000;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%
+}
+
+header img {
+    float: left;
+}
+
+header h2 {
+    color: #800000;
+    font-size: 170%;
+    text-indent: 30px;
+    
+}
+
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+    text-indent: 30px;
+    
+}
+
+em.shadow {
+    text-shadow: 2px 2px 1px #800000;
+}
+
+main {
+    clear: left;
+}
+
+main h1 {
+    font-size: 150%;
+}
+
+main h2 {
+    color: var(--global-color-1);
+    font-size: 130%;
+}
+
+main h3 {
+    font-size: 105%;
+}
+
+footer p {
+    text-align: center;
+}
