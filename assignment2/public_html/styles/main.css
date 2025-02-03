@@ -1,0 +1,81 @@
+/* universal */
+
+*{
+    font-family: sans-serif;
+}
+
+a {
+    font-weight: bold;
+}
+
+a:link {
+    color: #9b59b6;
+}
+
+a:visited {
+    color: #12395b;
+}
+
+a:hover {
+    color: #2880b9;
+}
+
+a:focus {
+    color: #2880b9;
+}
+
+/* body */
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* headers */
+
+header img {
+    width: 85px;
+    float: left;
+}
+
+header h2 {
+    font-size: 200%;
+    font-style: italic;
+    color: #fe4d5b;
+    text-indent: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+
+header h3 {
+    font-size: 125%;
+    text-indent: 25px;
+}
+
+/* main */
+
+main h1 {
+    font-size: 150%;
+    clear: left;
+}
+
+main h1:first-child::first-letter {
+    font-size: 200%;
+}
+
+main h2 {
+    font-size: 125%;
+}
+
+main h3 {
+    font-size: 110%;
+}
+
+main ul {
+    line-height: 1.5;
+}
+
+/* footers */
+
+footer {
+    text-align: center;
+    font-size: 90%;
+}
