@@ -1,0 +1,62 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 6, 2025, 10:15:01 AM
+    Author     : Jay
+*/
+
+section h1:first-child::first-letter {
+    font-size: 100%;
+}
+
+section h1 {
+    font-size: 150%;
+}
+
+section h2 {
+    color:#12395b;
+    font-size: 120%;
+    padding-left: 1em;
+    background: url("../images/plus.png") no-repeat left center;
+}
+
+section h2.plus {
+    background: url("../images/plus.png") no-repeat left center;
+}
+
+section h2.minus {
+    background: url("../images/minus.png") no-repeat left center;
+}
+
+section h2 a {
+    color:#12395b;
+    text-decoration: none;
+}
+
+section h2 a:hover {
+    border: 2px solid blue;
+    color: blue;
+}
+
+section h2 a:focus {
+    color:blue;
+}
+
+section div {
+    display:none;
+}
+
+section div.open {
+    display: block;
+}
+
+section div.closed {
+    display: none;
+}
+
+section div p {
+    padding-left: 1.2em;
+}
+

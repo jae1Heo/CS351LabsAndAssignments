@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Shipping cost</title>
+        <link rel="stylesheet" href="../styles/main.css">
+        <link rel="stylesheet" href="../styles/shipping.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <img src="../images/FenderStratocaster.png" alt="standing guitar image">
+            <h2>The Guitar Store</h2>
+            <h3>For rock stars everywhere</h3>
+        </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="../lessons/index.html">Lessons</a>
+            </li>
+            <li>
+                    <a href="../products/index.html">Products</a>
+                </li>
+                <li>
+                    <a href="../support/index.html">Support</a>
+                </li>
+                <li>
+                    <a href="../shipping/index.html">Shipping</a>
+                </li>
+                <li>
+                    <a href="../contact/index.html">Contact Us</a>
+                    <ul>
+                        <li>
+                            <a href="../contact/email.html">Email</a>
+                        </li>
+                        <li>
+                            <a href="../contact/phone.html">Phone</a>
+                        </li>
+                        <li>
+                            <a href="../contact/chat.html">Live Chat</a>
+                        </li>
+                    </ul>
+        </ul>
+    </nav>
+    <main>
+        <aside>
+            <ul>
+                <li>
+                    <a href="../products/guitars/index.html">Guitars</a>
+                </li>
+                <li>
+                    <a href="../products/basses/index.html">Basses</a>
+                </li>
+                <li>
+                    <a href="../products/drums/index.html">Drums</a>
+                </li>
+                <li>
+                    <a href="../products/keyboards/index.html">Keyboards</a>
+                </li>
+            </ul>
+        </aside>  
+        <section>
+            <h2>
+                Shipping Costs
+            </h2>
+            <div>
+                <label>Enter costs of the product:</label>
+                <input type="text" id="cost">
+                <input type="button" id="calculate" value="Calculate">
+            </div>
+            <div>
+                <label>Total cost, including shipping:</label>
+                <input type="text" id="result" disabled>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <span>&copy; 2023 The Guitar Store</span>
+        <p id="curDate"></p>
+    </footer>  
+    <script src="../scripts/shipping.js"></script>
+    <script src="../scripts/date.js"></script>
+</body>  
+</html>
