@@ -1,0 +1,43 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 17, 2025, 3:15:46 PM
+    Author     : wodnj
+*/
+
+section {
+    margin: 0 auto;
+}
+
+section h1:first-child::first-letter {
+    font-size: 100%;
+}
+
+section h2 {
+    font-weight: normal;
+    font-size: 100%;
+    padding-bottom: 0.5em;
+}
+
+.bxslider {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.bxslider img {
+    height: 200px;
+    margin: 0 auto;
+}
+
+.bx-wrapper {
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+.bxslider .bx-caption {
+    display: block;
+    text-align: center;
+}
+

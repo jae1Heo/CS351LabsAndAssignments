@@ -1,0 +1,42 @@
+
+
+section h1:first-child::first-letter{
+    font-size: 100%;
+}
+
+h1 {
+    padding-top: .75em;
+    margin-bottom:0;
+    padding-bottom: 0;
+}
+
+
+form p{
+    display: inline;
+}
+
+
+table {
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+
+td, th {
+    border-right: 1px black dashed;
+    border-bottom: 1px black dashed;
+    padding: .2em .5em .2em .5em;
+}
+
+.price {
+    text-align:right;
+}
+
+.lp {
+    text-align:right;
+}
+
+section h3 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
