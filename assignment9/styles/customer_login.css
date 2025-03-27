@@ -1,0 +1,52 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 11, 2025, 10:20:24 AM
+    Author     : wodnj
+*/
+
+section h1 {
+    padding-left:.75em;
+    padding-top:.75em;
+}
+
+section h1:first-child::first-letter{
+    font-size: 100%;
+}
+
+section { 
+    width:400px;
+    float: left;
+    margin-left: 1em;
+    display:flex;
+}
+
+
+section label {
+    padding-left: 1em;
+    display:inline;
+}
+
+form { /*form general*/
+    float:right;
+}
+
+.cancel{ /* cancel button */
+    margin-top:109px;
+}
+
+.email { /*email input*/
+    width: 200px;
+}
+
+
+.login { /*login button*/
+    margin-right: 300px;
+    margin-top: 2em;
+    margin-left:13px;
+}
+
+
+

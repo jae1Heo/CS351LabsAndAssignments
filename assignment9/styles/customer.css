@@ -1,0 +1,135 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 10, 2025, 10:40:45 AM
+    Author     : wodnj
+*/
+
+
+body {
+    width: 1200px;
+}
+
+nav ul li a {
+    width: 200px;
+}
+
+section {
+    width: 980px;
+}
+
+div {
+    border: 2px solid black;
+    margin-bottom: 1em;
+    margin-right:1em;
+    display: block;
+}
+
+h2 {
+    padding-left: .55em;  
+}
+
+.container {
+    border: none;
+    display: flex;
+    width: 100%;
+}
+
+.billing {
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+}
+
+.billing label {
+    display:inline-block;
+    width: 250px;
+    margin-left: .7em;
+}
+
+
+.shipping {
+   display: flex;
+   flex-direction: column;
+   width: 500px;
+}
+
+.shipping label {
+    display: inline-block;
+    width: 310px;
+    margin-left: .7em;
+}
+
+
+.customer_info label {
+    display: inline-block;
+    width: 195px;
+    margin-left: .55em;
+}
+
+.customer_info p input {
+    width: 300px;
+}
+
+.fn {
+    margin-left: .1em;
+}
+
+.ln {
+    margin-left: .1em;
+}
+
+.pw {
+    margin-left: .1em;
+}
+
+
+.cf_label{
+  margin-left: .1em;
+}
+
+.cf {
+    margin-left: .1em;
+}
+
+.email {
+    margin-left: .1em;
+}
+
+.states_b {
+    margin-left: 9em;
+}
+
+.states_s {
+    margin-left: 9.2em;
+}
+
+
+.c_info_submit {
+     width: 256px;
+     margin-left: 4.5em;
+     margin-top: 1em;
+     margin-bottom: 2em;
+}
+
+.c_b_addr_submit {
+    margin-left: 3.5em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-right: 15em;
+}
+
+.c_s_addr_submit {
+    margin-left: 3.5em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-right: 15em;
+}
+
+.success {
+    color: red;
+    font-size: 100%;
+    margin-left:4em;
+}
